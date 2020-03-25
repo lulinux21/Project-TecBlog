@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebunchet MS', 'Arial', sans-serif;
+    background-color: #e6e6e6;
+}
+/* Imagens */
+img {
+    width: 100%;
+}
+/* Layout */
+.area-cabecalho {
+    background-color: #ff5757;
+    text-align: center;
+    padding: 15px;
+}
+.area-logo, .area-menu {
+    padding: 10px;
+}
+/* Formatação Menu */
+.area-menu a {
+    padding: 8px 20px;
+}
+.area-menu a:link, a:visited {
+    color: #FFF;
+}
+.area-menu a:hover {
+    background-color: #FFF;
+    color: #ff5757;
+}
+.area-principal {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+.area-postagens {
+    background-color: #e6e6e6;
+    max-width: 680px;
+    width: 100%;
+    float: left;
+    margin: 5px 0 5px 0;
+}
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+.postagens h2 {
+    color: #ff5757;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.data-postagem {
+    display: block;
+    width: 40%;
+    font-size: 0.9em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    border-bottom: 1px solid #3e3e3e;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+}
+.postagens p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.postagens a {
+    color: #ff5757;
+}
+.postagens a:hover {
+    color: #F00;
+    text-decoration: underline;
+}
+.area-lateral {
+    max-width: 260px;
+    width: 100%;
+    float: right;
+    margin: 5px 0 5px 0;
+}
+.conteudo-lateral {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.conteudo-lateral h3 {
+    background-color: #e6e6e6;
+    color: #3e3e3e;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.conteudo-lateral p {
+    color: #3e3e3e;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.conteudo-lateral a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #111;
+}
+.conteudo-lateral a:hover {
+    color: #F00;
+   text-decoration: underline
+}
+.rodape {
+    clear: both;
+    background-color: #ff5757;
+    text-align: center;
+    padding: 56px 0 56px 0;
+    color: #FFFF;
+}
+/* Formatações Geral */
+h1 {
+    color: #3e3e3e;
+    font-size: 2.5em;
+}
+.color-text {
+    color: #FFF;
+}
+/*Medias Queries*/
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+    /* estilos aqui */ 
+    /* Imagens */
+    img {
+        width: 100%;
+    }
+    /* Layout */
+    .area-cabecalho {
+        background-color: #ff5757;
+        text-align: center;
+        padding: 15px;
+    }
+    .area-menu a {
+        display: block;
+        border: 1px solid #FFF;
+        padding: 10px;
+        margin-bottom: 3px;
+        font-size: 18px;
+    }
+    /* Formatação Menu */
+    .area-menu a {
+        padding: 8px 20px;
+    }
+    .area-menu a:link, a:visited {
+        color: #FFF;
+    }
+    .area-menu a:hover {
+        background-color: #FFF;
+        color: #ff5757;
+    }
+    .area-principal {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .area-postagens {
+        background-color: #e6e6e6;
+        max-width: 680px;
+        width: 100%;
+        float: left;
+        margin: 5px 0 5px 0;
+    }
+    .postagens {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+    .postagens h2 {
+        color: #ff5757;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .data-postagem {
+        display: block;
+        width: 100%;
+        font-size: 0.9em;
+        border-bottom: 1px solid #3e3e3e;
+        padding: 5px 0 5px 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .postagens a {
+        color: #ff5757;
+    }
+    .area-lateral {
+        max-width: 100%;
+        width: 100%;
+        float: right;
+        margin: 5px 0 5px 0;
+    }
+    .conteudo-lateral a {
+        display: block;
+        color: rgb(0, 0, 0);
+        padding: 3px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #111;
+    }
+    .conteudo-lateral a:hover {
+        color: #F00;
+    text-decoration: underline
+    }
+}
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 481px) and (max-width: 767px) 
+{
+    /* estilos aqui */ 
+    /* Imagens */
+    img {
+        width: 100%;
+    }
+    /* Layout */
+    .area-cabecalho {
+        background-color: #ff5757;
+        text-align: center;
+        padding: 15px;
+    }
+    .area-menu a {
+        display: block;
+        border: 1px solid #FFF;
+        padding: 10px;
+        margin-bottom: 3px;
+        font-size: 18px;
+    }
+    /* Formatação Menu */
+    .area-menu a {
+        padding: 8px 20px;
+    }
+    .area-menu a:link, a:visited {
+        color: #FFF;
+    }
+    .area-menu a:hover {
+        background-color: #FFF;
+        color: #ff5757;
+    }
+    .area-principal {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .area-postagens {
+        background-color: #e6e6e6;
+        max-width: 100%;
+        width: 100%;
+        float: left;
+        margin: 5px 0 5px 0;
+    }
+    .postagens {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+    .postagens h2 {
+        color: #ff5757;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .data-postagem {
+        display: block;
+        width: 100%;
+        font-size: 0.9em;
+        border-bottom: 1px solid #3e3e3e;
+        padding: 5px 0 5px 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .postagens a {
+        color: #ff5757;
+    }
+    .area-lateral {
+        max-width: 100%;
+        width: 100%;
+        float: right;
+        margin: 5px 0 5px 0;
+    }
+    .conteudo-lateral a {
+        display: block;
+        color: rgb(0, 0, 0);
+        padding: 3px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #111;
+    }
+    .conteudo-lateral a:hover {
+        color: #F00;
+    text-decoration: underline
+    }  
+     
+}
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 959px) 
+{
+    /* estilos aqui */
+     /* Imagens */
+     img {
+        width: 100%;
+    }
+    /* Layout */
+    .area-cabecalho {
+        background-color: #ff5757;
+        text-align: center;
+        padding: 15px;
+    }
+    .area-menu a {
+        display: block;
+        border: 1px solid #FFF;
+        padding: 10px;
+        margin-bottom: 3px;
+        font-size: 18px;
+    }
+    /* Formatação Menu */
+    .area-menu a {
+        padding: 8px 20px;
+    }
+    .area-menu a:link, a:visited {
+        color: #FFF;
+    }
+    .area-menu a:hover {
+        background-color: #FFF;
+        color: #ff5757;
+    }
+    .area-principal {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .area-postagens {
+        background-color: #e6e6e6;
+        max-width: 100%;
+        width: 100%;
+        float: left;
+        margin: 5px 0 5px 0;
+    }
+    .postagens {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #FFF;
+    }
+    .postagens h2 {
+        color: #ff5757;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .data-postagem {
+        display: block;
+        width: 100%;
+        font-size: 0.9em;
+        border-bottom: 1px solid #3e3e3e;
+        padding: 5px 0 5px 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .postagens a {
+        color: #ff5757;
+    }
+    .area-lateral {
+        max-width: 100%;
+        width: 100%;
+        float: right;
+        margin: 5px 0 5px 0;
+    }
+    .conteudo-lateral a {
+        display: block;
+        color: rgb(0, 0, 0);
+        padding: 3px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #111;
+    }
+    .conteudo-lateral a:hover {
+        color: #F00;
+    text-decoration: underline
+    }
+  
+}
+@media (min-width: 960px) and (max-width: 1024px) 
+{
+    /* estilos aqui */ 
+        
+     
+}
+@media (min-width: 1200px) 
+{
+    /* estilos aqui */
+
+}
